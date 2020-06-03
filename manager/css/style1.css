@@ -1,0 +1,129 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	position: fixed;
+	left: 0;
+	top : 0;
+	width: 100%;
+	z-index: 500;
+}
+
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 30px;
+	background-color: #353535 !important;
+	z-index: 500;
+}
+
+footer p{
+	color: grey;
+	z-index: 500;
+	font-size: 0.7em;	
+	margin-top: 5px;
+}
+
+.bg-greyop{
+	opacity: 0.5;
+	background: #353535 !important;
+}
+
+.bandeau{
+	position: absolute;
+	top: 20%;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	height: 7%;
+}
+
+.bandeau2{
+	position: absolute;
+	top: 85%;
+	left: 0;
+	z-index: 2;
+	width: 100%;
+	height: 7%;
+}
+
+.centered {
+  position: absolute;
+  top: 34%;
+  left: 0;
+  z-index: 2;
+}
+
+.bg-lightop{
+	opacity: 0.5;
+	background: white;
+}
+
+.image1{
+	position: absolute;
+	top: 80px;
+	bottom: 0;
+	z-index: 1;
+}
+
+.image2{
+	position: absolute;
+	top: 30%;
+	left: 26%;
+	width: 50%;
+	height: auto;
+	z-index: 3;
+}
+
+
+.image3{
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	width: 5%;
+	height: auto;
+	z-index: 501;	
+}
+
+.bg-grey1{
+	background: #353535 !important;
+}
+
+.center{
+	text-align: center;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.img-align{
+	vertical-align: middle;
+}
+
+.greentext {
+	position: absolute;
+	z-index: 2;
+	top: 20%;
+	left: 26%;
+	font-weight: bold;
+	font-size: x-large;
+	color:#D0FA58;
+}
+
+.orangetext{
+	position: absolute;
+	z-index: 2;
+	top: 85%;
+	left: 27%;
+	font-weight: bold;
+	font-size: x-large;
+	color:#FF8F00;	
+}
+
+
+
